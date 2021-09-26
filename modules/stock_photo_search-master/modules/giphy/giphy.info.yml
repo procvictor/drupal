@@ -1,0 +1,10 @@
+name: 'Stock Photo Search -> Giphy'
+type: module
+
+description: 'Giphy stock photos Media source provider.'
+package: ONF Media
+core: 8.x
+
+configure: stock_photo_search.settings
+dependencies:
+  - stock_photo_search
